@@ -1,14 +1,23 @@
+# Environment variables
 .env
 
+# Virtual environment
 myvenv/
 
+# Database
 db.sqlite3
 
+# Python
 __pycache__/
-*.__pyc
+*.pyc
 
+# IDE
 .vscode/
 .idea/
 
-.DS.Store
+# OS
+.DS_Store
 Thumbs.db
+
+# Django local settings
+local_settings.py
